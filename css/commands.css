@@ -1,0 +1,13 @@
+:root {
+    --main: #f32d75;
+}
+*{
+    cursor: default;
+}
+#home > li {
+    transition: 0.2s;
+}
+
+#home > li:hover {
+    color: var(--main);
+}
