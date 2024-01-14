@@ -6,6 +6,19 @@
     font-size: 16px;
 }
 
+body::-webkit-scrollbar
+{
+    width: 0.25rem;
+}
+body::-webkit-scrollbar-track
+{
+    background: var(--secondtext);
+}
+body::-webkit-scrollbar-thumb
+{
+    background: var(--main);
+}
+
 * {
     list-style-type: none;
     text-decoration: none;
